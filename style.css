@@ -1,0 +1,142 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.topBar{
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    margin-left: 350px;
+    align-items: center;
+    height: 115px;
+
+}
+.topBar_title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+
+}
+.search{
+  position: relative;
+}
+.img_search{
+  position: absolute;
+  left: 2%;
+  top: 10px;
+}
+.fa-solid{
+
+}
+.fa-magnifying-glass{
+
+}
+.fa-lg{
+
+}
+.header__search{
+  background-color: #F9FAFB;
+  border-radius: 16px;
+  border: none;
+  padding: 20px;
+  padding-left: 45px;
+  width: 439px;
+
+}
+
+.topBar_right{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.group_context{
+
+}
+.admin{
+
+}
+
+.body{
+  background-color: #F9FAFB;
+}
+
+.side_bar{
+  background-color: #ffff;
+  width: 346px;
+  height: 1024px;
+  position: absolute;
+  top:0;
+}
+
+.side_bar-top{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  margin-top: 38px;
+}
+
+.side_bar-top-img{
+  background-color: #5D5FEF;
+  padding: 7px;
+  border-radius: 8px;
+}
+
+.side_bar-top-title{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.side_bar-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.side_bar-content{
+  background-color: #5D5FEF;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px;
+  width: 287px;
+  height: 70px;
+  font-size: 18px;
+  padding-top: 21.5px;
+  padding-bottom: 21.5px;
+  padding-left: 37px;
+}
+
+.main_first-card{
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 25px;
+  margin-right: 21px;
+  border-radius: 20px;
+}
+
+.all_card{
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  width: 195px;
+  height: 199px;
+  background-color: #FFE2E5;
+  border-radius: 16px;
+}
+
+.card_img{
+  background-color: #FA5A7D;
+  border-radius: 17px;
+  padding: 5px;
+}
