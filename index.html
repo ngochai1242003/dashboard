@@ -14,7 +14,7 @@
 <body style="background: #F9FAFB; position: relative;">
     <div class="topBar">
         <h1 class="topBar_title">DashBoard</h1>
-        <div class="search">
+        <!-- <div class="search">
             <input
             type="search"
             class="header__search"
@@ -22,101 +22,149 @@
             <div class="icon_serch">
                 <img class="img_search" src="./assest/search.svg" alt="search">
             </div>
-        </div>
+        </div> -->
         <div class="topBar_right">
             <div class="topBar_right-content">
-                <h4 class="group_context">Group 5</h4>
-                <p class="admin">Admin</p>
+                <!-- <h4 class="group_context" style="font-family: Poppins, sans-serif;">Group 5</h4>
+                <a href="#" class="admin" style="font-family: Poppins, sans-serif; text-decoration: none; color: black;">Admin</a> -->
             </div>
             <img src="./assest/admin.svg" alt="admin">
+            <img src="./assest/bell.svg" alt="chuong">
         </div>
     </div>
 
     <div class="side_bar">
         <div class="side_bar-top">
             <img class="side_bar-top-img" src="./assest/Fire.svg" alt="">
-            <h1 class="side_bar-top-title">CEO MEMO</h1>
+
+            <h1>
+                <a class="side_bar-top-title" href="index.html" style="color: black; text-decoration: none; font-family: Poppins, sans-serif;">CEO MEMO</a>
+            </h1>
         </div>
-        <div class="side_bar-menu">
-            <div class="side_bar-content">
+        <div class="side_bar-menu"> 
+            <div class="side_bar-content" style="background-color: #5D5FEF;">
                 <img src="./assest/overview.svg" alt="">
-                <h3 style="color: #ffff;">Overview</h3>
-
+                <a href="#" style="color: #ffff; text-decoration: none; font-family: Poppins, sans-serif; font-weight: bold;">Overview</a>
             </div>
 
-            <div class="side_bar-content">
+            <div class="side_bar-content dropdown-btn1">
                 <img src="./assest/human.svg" alt="">
-                <h3 style="color: #ffff;">Human Resources</h3>
-                <img src="./assest/muiten.svg" alt="">
+                <a href="#" style=" text-decoration: none; font-family: Poppins, sans-serif; font-weight: 500">Human Resources</a>
+                <img src="./assest/muiten.svg" style="margin-left: 10px;" alt="">
             </div>
 
-            <div class="side_bar-content">
+            <ul class="submenu1">
+                <li><a href="employment.html">Employment</a></li>
+                <li><a href="employmentWorkingTime.html">Employment Working Time</a></li>
+                <li><a href="personal.html">Personal</a></li>
+                <li><a href="benefitPlans.html">Benefit Plans</a></li>
+                <li><a href="jobHistory.html">Job History</a></li>
+            </ul>
+            
+            <div class="side_bar-content dropdown-btn">
                 <img src="./assest/payroll.svg" alt="">
-                <h3 style="color: #ffff;">Payrolls</h3>
-                <img src="./assest/muiten.svg" alt="">
+                <a href="#">Payrolls</a>
+                <!-- <img src="./assest/muiten.svg" style="margin-left: 104px;" alt=""> -->
+                <svg style="margin-left: 104px;" height="16" viewBox="0 0 7 16" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M0.28666 14.9549C0.095553 14.7028 0 14.3819 0 13.9923C0 13.6027 0.095553 13.2818 0.28666 13.0297L4.35202 7.66653L0.28666 2.3034C0.095553 2.05128 0 1.73041 0 1.34078C0 0.951154 0.095553 0.630282 0.28666 0.378169C0.477767 0.126056 0.720993 0 1.01634 0C1.31169 0 1.55491 0.126056 1.74602 0.378169L6.54106 6.70392C6.6453 6.84143 6.71932 6.99041 6.7631 7.15085C6.80688 7.31128 6.82842 7.48318 6.82772 7.66653C6.82772 7.84989 6.80583 8.02178 6.76205 8.18222C6.71827 8.34265 6.64461 8.49163 6.54106 8.62915L1.74602 14.9549C1.55491 15.207 1.31169 15.3331 1.01634 15.3331C0.720993 15.3331 0.477767 15.207 0.28666 14.9549Z"
+                        fill="currentColor" />
+                </svg>
             </div>
 
-            <div class="side_bar-content">
+            <ul class="submenu">
+                <li><a href="employee.html">Employee</a></li>
+                <li><a href="payrates.html">Pay Rates</a></li>
+            </ul>
+
+            <!-- <div class="side_bar-content">
                 <img src="./assest/setting.svg" alt="">
-                <h3 style="color: #ffff;">Settings</h3>
-            </div>
+                <a href="#" style="color: #737791; text-decoration: none; font-family: Poppins, sans-serif; font-weight: 500">Settings</a>
+            </div> -->
 
             <div class="side_bar-content">
                 <img src="./assest/out.svg" alt="">
-                <h3 style="color: #ffff;">Sign Out</h3>
+                <a href="#" style=" text-decoration: none; font-family: Poppins, sans-serif; font-weight: 500">Sign Out</a>
             </div>
-
-
         </div>
-
     </div>
 
-    <div class="main" style="margin-left: 350px;">
+    <div class="main" style="margin-left: 356px;">
         <div class="main_first-card">
-            <h3 >Overview</h3>
-            <div class="all_card">
+            <h3 style="margin: 23px 0 50px 31px; font-family: Poppins, sans-serif;" >Overview</h3>
+            <div class="all-first_card">
                 
-                <div class="card">
-                    <img class="card_img" src="./assest/earning.svg" alt="">
+                <a href="#" class="card" style="background-color:#FFE2E5; text-decoration: none; color: black;" >
+                    <img class="card_img" style="background-color: #FA5A7D;" src="./assest/earning.svg" alt="">
+                    <div class="card_title">
+                        <p class="card_percent" style="margin-bottom: 20px;">3%</p>
+                        <p>Earnings</p>
+                    </div>
+                </a>
+        
+                <a href="#" class="card" style="background-color: #FFF4DE; text-decoration: none; color: black;">
+                    <img class="card_img" style="background-color: #FF947A;" src="./assest/vacation.svg" alt="">
+                    <div class="card_title">
+                        <p class="card_percent" style="margin-bottom: 20px;">3%</p>
+                        <p>Vacation Days</p>
+                    </div>
+                </a>
+        
+                <a href="#" class="card" style="background-color: #E0E9FF; text-decoration: none; color: black;">
+                    <img class="card_img" style="background-color: #A0BBFF;" src="./assest/benefit1.svg" alt="">
+                    <div class="card_title">
+                        <p class="card_percent" style="margin-bottom: 20px;">3%</p>
+                        <p>Benefit</p>
+                    </div>
+                </a>
+        
+                <a href="#" class="card" style="background-color: #DCFCE7; text-decoration: none; color: black;">
+                    <img class="card_img" style="background-color: #3CD856;" src="./assest/anniversary.svg" alt="">
+                    <div class="card_title">
+                        <p class="card_percent" style="margin-bottom: 20px;">3%</p>
+                        <p>Hiring Anniversary</p>
+                    </div>
+                </a>
+        
+                <a href="#" class="card" style="background-color: #F3E8FF; text-decoration: none; color: black;">
+                    <img class="card_img" style="background-color: #BF83FF;" src="./assest/vacationday.svg" alt="">
+                    <div class="card_title">
+                        <p class="card_percent" style="margin-bottom: 20px;">3%</p>
+                        <p style="margin-right: 10px;">Excess vacation days</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="main_generality">
+            <div class="main_second-card">
+                <h3 style="margin: 23px 0 50px 31px; font-family: Poppins, sans-serif;" >Overview</h3>
+                <div class="all-second_card">
                     
-                    <p>3%</p>
-        
-                    <p class="card_name">Earnings</p>
+                    <a href="#" class="card" style="background-color:#FFE2E5; text-decoration: none; color: black;"" >
+                        <img class="card_img" style="background-color: #FA5A7D;" src="./assest/benefitplanchange.svg" alt="">
+                        <div class="card_title">
+                            <p class="card_percent" style="margin-bottom: 20px;">3%</p>
+                            <p>Benefit Plan Change</p>
+                        </div>
+                    </a>
+            
+                    <a href="#" class="card" style="background-color: #FFF4DE; text-decoration: none; color: black;">
+                        <img class="card_img" style="background-color: #FF947A;" src="./assest/birthday-cake.svg" alt="">
+                        <div class="card_title">
+                            <p class="card_percent" style="margin-bottom: 20px;">3%</p>
+                            <p>Birthdays</p>
+                        </div>
+                    </a>
                 </div>
-        
-                <div class="card">
-                    <img class="card_img" src="./assest/vacation.svg" alt="">
-                    
-                    <p>3%</p>
-        
-                    <p class="card_name">Earnings</p>
-                </div>
-        
-                <div class="card">
-                    <img class="card_img" src="./assest/benefit.svg" alt="">
-                    
-                    <p>3%</p>
-        
-                    <p class="card_name">Earnings</p>
-                </div>
-        
-                <div class="card">
-                    <img class="card_img" src="./assest/earning.svg" alt="">
-                    
-                    <p>3%</p>
-        
-                    <p class="card_name">Earnings</p>
-                </div>
-        
-                <div class="card">
-                    <img class="card_img" src="./assest/earning.svg" alt="">
-                    
-                    <p>3%</p>
-        
-                    <p class="card_name">Earnings</p>
-                </div>
+            </div>
+    
+            <div class="main_last-chart" style=" background-color: #ffffff; border-radius: 20px; padding: 20px; margin-top: 25px;">
+                <img src="./assest/chart.svg" alt="">
             </div>
         </div>
     </div>
 </body>
+<script src="main.js"></script>
 </html>
