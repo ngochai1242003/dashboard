@@ -48,44 +48,66 @@
   gap: 20px;
 }
 
-.dropdown_list{
-  margin-top: 2.5rem;
-  border-radius: 4px;
-  overflow: hidden;
+.dropdown{
   position: relative;
 }
 
-.dropdown_list::before{
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 3rem;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid ;
-  transform: translateY(-100%);
 
+.dropdown_select {
+  position: relative;
+}
+
+.dropdown_list {
+  margin-top: 2.5rem;
+  border-radius: 4px;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  left: -100px;
+  width: 308px;
+  display: none;
+}
+
+.dropdown:hover .dropdown_list{
+  display: block;
 
 }
 
-.dropdown_items{
-  padding: 3rem;
-  background-color: #F9FAFB;
-  color: #ffffff;
+.dropdown::before{
+  content: "";
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  width: 308px;
+  top: 62px;
+  background-color: black;
+  right: -151px;
+  background-color: transparent;
+}
+
+.dropdown_items:first-child {
+  border-radius: 4px 4px 0 0;
+}
+
+.dropdown_items:last-child {
+  border-radius: 0 0 20px 20px;
+}
+
+
+
+.dropdown_items a{
+  padding: 20px 60px;
+  background-color: #ffff;
+  /* color: #ffffff; */
   cursor: pointer;
   transition: background-color 0.2s linear;
+  opacity: 0.9;
+  display: block;
 }
 
-.dropdown_items:first-child{
-  border-radius: 4px 4px 0 0 ;
-}
-
-.dropdown_items:last-child{
-  border-radius: 0 0 4px 4px;
-}
-
-.dropdown_items:hover{
-  background-color: #ffffff;
+.dropdown_items a:hover{
+  background-color: #808080;
+  color: #ffff;
 }
 
 .body{
@@ -199,7 +221,7 @@ a {
   flex-wrap: wrap;
 }
 
-.main_second-card{
+.main_second-card {
   background-color: #ffffff;
   padding: 10px;
   margin-top: 25px;
@@ -303,4 +325,27 @@ li{
   background-color: #7D7D7E;
   color: #ffff; 
 }
+
+.main_last-chart{
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 25px;
+  margin-right: 21px;
+  border-radius: 20px;
+  width: 630px;
+}
+
+.all-last_card{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 31px;
+  margin: 0 25px 0 25px;
+}
+
+.card-employee_management{
+  width: 195px;
+  height: 199px;
+  border-radius: 16px;
+}
+
 
