@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./employeeManagement.css">
 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -113,16 +114,262 @@
                 <a href="#">Sign Out</a>
             </div>
         </div>
+    </div>
 
+    <div class="main" style="margin-left: 300px;">
+        <div class="header_main">
+            <div class="header_main-right">
+                <a href="#" class="right_title1">Employee</a>
+                <a href="#" class="right_title">Admin</a>
+                <div class="line"></div>
+            </div>
 
+            <div class="header_main-left">
+                <div class="main-left_info">
+                    <h4 class="main-left_title">total members: </h4>
+                    <p>200</p>
+                </div>
 
-        <div class="main" style="margin-left: 356px;">
+                <div class="main-left_info">
+                    <h4 class="main-left_title">current used: </h4>
+                    <p>100</p>
+                </div>
+            </div>
 
         </div>
-        <script src="main.js"></script>
+
+        <div class="navbar">
+            <h2 class="navbar_title">Members</h2>
+            <a href="#" class="navbar_add">Add members</a>
+        </div>
+
+        <table class="table_main " > 
+            <thead>
+                <tr class="table_list">
+                    <th class="table_list-content">ID</th>
+                    <th class="table_list-content">Name</th>
+                    <th class="table_list-content">SSN</th>
+                    <th class="table_list-content">Birth Days</th>
+                    <th class="table_list-content">Address</th>
+                    <th class="table_list-content">Phone</th>
+                    <th class="table_list-content">Status</th>
+                    <th class="table_list-content">Operation</th>           
+                </tr>
+            </thead>
+            <tr>
+                <td class="table_list-content">1001</td>
+                <td class="table_list-content">Le Tan Danh</td>
+                <td class="table_list-content">1234556789</td>
+                <td class="table_list-content">March 14, 2003</td>
+                <td class="table_list-content">46 Hung Vuong</td>
+                <td class="table_list-content">0948727515</td>
+                <td class="table_list-content">Active</td>
+                <td class="table_list-content">
+                    <a href="!" class="table_list-img">
+                        <img src="./assest/edit.svg" alt="">
+                    </a>
+                    <a href="#" class="table_list-img">
+                        <img src="./assest/delete.svg" alt="">
+                    </a>
+
+                </td>
+
+            </tr>
+
+            <tr>
+                <td class="table_list-content">1001</td>
+                <td class="table_list-content">Le Tan Danh</td>
+                <td class="table_list-content">1234556789</td>
+                <td class="table_list-content">March 14, 2003</td>
+                <td class="table_list-content">46 Hung Vuong</td>
+                <td class="table_list-content">0948727515</td>
+                <td class="table_list-content">Active</td>
+                <td class="table_list-content">
+                    <a href="!" class="table_list-img">
+                        <img src="./assest/edit.svg" alt="">
+                    </a>
+                    <a href="#" class="table_list-img">
+                        <img src="./assest/delete.svg" alt="">
+                    </a>
+
+                </td>
+
+            </tr>
+        </table>
+
+        <div class="add_members">
+            <div class="add_member-list-1">
+                <p class="list_content">Employee</p>
+            </div>
+            
+            <ul class="add_member-title-1">
+                <div class="add_information">
+                    <p class="information_title"></p>
+                </div>
+                <div class="table-input_information">
+                    <div class="input_information">
+                        <p class="information_content">Employment_id: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Employment_code: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Hire date for working: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Workers comp code: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Termination date: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Rehire date for working: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Last review date: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Number days requirement of working per month: </p>
+                        <input class="input" type="text">
+                    </div>
+
+                    <div class="input_information">
+                        <p class="information_content">Employment_status: </p>
+                        <input class="input" type="text">
+                    </div>
+                </div>
+                <table class="table_main" > 
+                    <thead>
+                        <tr class="table_list">
+                            <th class="table_list-content">ID</th>
+                            <th class="table_list-content">Name</th>
+                            <th class="table_list-content">SSN</th>
+                            <th class="table_list-content">Birth Days</th>
+                            <th class="table_list-content">Address</th>
+                            <th class="table_list-content">Phone</th>
+                            <th class="table_list-content">Status</th>
+                            <th class="table_list-content">Operation</th>           
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="table_list-content">1001</td>
+                        <td class="table_list-content">Le Tan Danh</td>
+                        <td class="table_list-content">1234556789</td>
+                        <td class="table_list-content">March 14, 2003</td>
+                        <td class="table_list-content">46 Hung Vuong</td>
+                        <td class="table_list-content">0948727515</td>
+                        <td class="table_list-content">Active</td>
+                        <td class="table_list-content">
+                            <a href="!" class="table_list-img">
+                                <img src="./assest/edit.svg" alt="">
+                            </a>
+                            <a href="#" class="table_list-img">
+                                <img src="./assest/delete.svg" alt="">
+                            </a>
+        
+                        </td>
+        
+                    </tr>
+        
+                    <tr>
+                        <td class="table_list-content">1001</td>
+                        <td class="table_list-content">Le Tan Danh</td>
+                        <td class="table_list-content">1234556789</td>
+                        <td class="table_list-content">March 14, 2003</td>
+                        <td class="table_list-content">46 Hung Vuong</td>
+                        <td class="table_list-content">0948727515</td>
+                        <td class="table_list-content">Active</td>
+                        <td class="table_list-content">
+                            <a href="!" class="table_list-img">
+                                <img src="./assest/edit.svg" alt="">
+                            </a>
+                            <a href="#" class="table_list-img">
+                                <img src="./assest/delete.svg" alt="">
+                            </a>
+        
+                        </td>
+        
+                    </tr>
+                </table>
+            </ul>
+
+            <div class="add_member-list-2">
+                <p class="list_content">Employment</p>
+            </div>
+
+            <ul class="add_member-title-2">
+                <table class="table_main" > 
+                    <thead>
+                        <tr class="table_list">
+                            <th class="table_list-content">ID</th>
+                            <th class="table_list-content">Name</th>
+                            <th class="table_list-content">SSN</th>
+                            <th class="table_list-content">Birth Days</th>
+                            <th class="table_list-content">Address</th>
+                            <th class="table_list-content">Phone</th>
+                            <th class="table_list-content">Status</th>
+                            <th class="table_list-content">Operation</th>           
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td class="table_list-content">1001</td>
+                        <td class="table_list-content">Le Tan Danh</td>
+                        <td class="table_list-content">1234556789</td>
+                        <td class="table_list-content">March 14, 2003</td>
+                        <td class="table_list-content">46 Hung Vuong</td>
+                        <td class="table_list-content">0948727515</td>
+                        <td class="table_list-content">Active</td>
+                        <td class="table_list-content">
+                            <a href="!" class="table_list-img">
+                                <img src="./assest/edit.svg" alt="">
+                            </a>
+                            <a href="#" class="table_list-img">
+                                <img src="./assest/delete.svg" alt="">
+                            </a>
+        
+                        </td>
+        
+                    </tr>
+        
+                    <tr>
+                        <td class="table_list-content">1001</td>
+                        <td class="table_list-content">Le Tan Danh</td>
+                        <td class="table_list-content">1234556789</td>
+                        <td class="table_list-content">March 14, 2003</td>
+                        <td class="table_list-content">46 Hung Vuong</td>
+                        <td class="table_list-content">0948727515</td>
+                        <td class="table_list-content">Active</td>
+                        <td class="table_list-content">
+                            <a href="!" class="table_list-img">
+                                <img src="./assest/edit.svg" alt="">
+                            </a>
+                            <a href="#" class="table_list-img">
+                                <img src="./assest/delete.svg" alt="">
+                            </a>
+        
+                        </td>
+        
+                    </tr>
+                </table>
+            </ul>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
-
-
-
 
 </html>

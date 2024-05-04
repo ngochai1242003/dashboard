@@ -1,0 +1,155 @@
+.main{
+    padding: 30px;
+    font-family: "Poppins", sans-serif;
+}
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header_main-right{
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    position: relative;
+}
+.right_title::before{
+    content: "";
+    margin-left: 10px;
+}
+
+.line{
+    position: absolute;
+    width: 80px;
+    height: 3px;
+    top: 60px;
+    background: linear-gradient(90deg, #FA5252 0%, #DD2476 100%);
+    border-radius: 2px;
+}
+
+.header_main-left{
+
+}
+
+.main-left_info{
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+
+}
+
+.main-left_title{
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+.navbar_title{
+    font-weight: 600;
+    
+}
+
+.navbar_add{
+    background-color: #5d5fef;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.table_main{
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    border-collapse: collapse; 
+    border-radius: 5px; 
+    overflow: hidden;
+} 
+
+.table_main.hide{
+    display: none;
+}
+
+.table_main tbody tr:nth-child(even){
+
+    background-color: #c1bcbc65;
+}
+    
+
+.table_list{
+    background-color: #5d5fef;
+    color: #ffffff;
+    
+   
+}
+.table_list-content{
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.add_members{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 50px;
+    display: none;
+} 
+
+.add_members.active{
+    display: block;
+}
+
+.add_member-list-1{
+    cursor: pointer;
+}
+
+.add_member-list-2{
+    cursor: pointer;
+}
+
+.list_content{
+
+}
+
+.add_member-title-1{
+    height: 0;
+    transition: all .3s;
+    overflow: hidden;
+    
+}
+
+.add_member-title-1.active{
+    height: max-content;
+
+}
+
+.add_member-title-2{
+    height: 0;
+    transition: all .3s;
+    overflow: hidden;
+}
+
+.add_member-title-2.active{
+    height: max-content;
+
+}
+
+.table-input_information{
+
+}
+.input_information{
+    display: flex;
+    padding: 10px;
+}
+.information_content{
+    min-width: 400px;
+}
+
+.input{
+
+}
+

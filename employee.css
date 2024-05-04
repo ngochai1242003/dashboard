@@ -1,0 +1,55 @@
+body{
+    font-family: "Poppins", sans-serif;
+    background: #F9FAFB; 
+    position: relative;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px; 
+    overflow: hidden;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 8px;
+    text-align: center;
+  }
+  .styled-table th{
+    background-color: #5D5FEF;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #c1bcbc65;
+  }
+
+  .main{
+    padding: 30px;
+  }
+
+  .main th {
+    padding: 15px;
+  }
+  
+  .main h1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .main_submmit {
+    display: flex;
+    gap: 10px;
+  }
+  .main_submmit input {
+    border-radius: 8px;
+    border-color: #0095ff;
+  }
+  
+  .submit button {
+    width: 60px;
+    height: 30px;
+    background-color: #cde7ff;
+    border-radius: 8px;
+    border: gray;
+  }
