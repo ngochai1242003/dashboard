@@ -67,7 +67,7 @@
     width: 100%;
     border-collapse: collapse; 
     border-radius: 5px; 
-    overflow: hidden;
+
 } 
 
 .table_main.hide{
@@ -88,9 +88,18 @@
 }
 .table_list-content{
     text-align: center;
-    padding: 10px;
+    padding: 10px;  
+   position: relative;
+
+  
     
 }
+
+.table_list-edit{
+    cursor: pointer;
+}
+
+
 
 .add_members{
     background-color: #ffffff;
@@ -149,7 +158,42 @@
     min-width: 400px;
 }
 
-.input{
-
+.note{
+    padding: 10px;
+    /* position: relative; */
 }
 
+.dropdown{
+    padding: 10px;
+    border-radius: 5px;
+    width: 150px;
+    background: #f1ecec; 
+    position: absolute;
+    top: 102%; 
+    left: 19px; 
+    display: none; 
+    z-index: 9999;
+    
+    
+}
+
+.dropdown.active{
+    display: block;
+}
+
+.img_note{
+    position: absolute;
+    top: -21px;
+    left: 20px;
+}
+
+.note_list{
+    padding-left: 15px;
+    
+}
+
+.table_list-content:last-child{
+   display:flex; 
+   justify-content: center; 
+   gap: 10px;
+}
