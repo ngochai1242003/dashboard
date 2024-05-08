@@ -48,7 +48,7 @@
   gap: 20px;
 }
 
-/* .dropdown{
+.dropdown1{
   position: relative;
 }
 
@@ -68,12 +68,12 @@
   display: none;
 }
 
-.dropdown:hover .dropdown_list{
+.dropdown1:hover .dropdown_list{
   display: block;
 
 }
 
-.dropdown::before{
+.dropdown1::before{
   content: "";
   height: 70px;
   position: absolute;
@@ -91,7 +91,7 @@
 
 .dropdown_items:last-child {
   border-radius: 0 0 20px 20px;
-} */
+}
 
 
 
